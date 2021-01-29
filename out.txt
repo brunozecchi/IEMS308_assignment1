@@ -1,0 +1,547 @@
+           npi nppes_provider_last_org_name nppes_provider_first_name  \
+1   1003000126                    ENKESHAFI                   ARDALAN   
+2   1003000126                    ENKESHAFI                   ARDALAN   
+3   1003000126                    ENKESHAFI                   ARDALAN   
+4   1003000126                    ENKESHAFI                   ARDALAN   
+5   1003000126                    ENKESHAFI                   ARDALAN   
+6   1003000126                    ENKESHAFI                   ARDALAN   
+7   1003000126                    ENKESHAFI                   ARDALAN   
+8   1003000126                    ENKESHAFI                   ARDALAN   
+9   1003000126                    ENKESHAFI                   ARDALAN   
+10  1003000126                    ENKESHAFI                   ARDALAN   
+
+   nppes_provider_mi nppes_credentials nppes_provider_gender  \
+1                NaN              M.D.                     M   
+2                NaN              M.D.                     M   
+3                NaN              M.D.                     M   
+4                NaN              M.D.                     M   
+5                NaN              M.D.                     M   
+6                NaN              M.D.                     M   
+7                NaN              M.D.                     M   
+8                NaN              M.D.                     M   
+9                NaN              M.D.                     M   
+10               NaN              M.D.                     M   
+
+   nppes_entity_code nppes_provider_street1 nppes_provider_street2  \
+1                  I           900 SETON DR                    NaN   
+2                  I           900 SETON DR                    NaN   
+3                  I           900 SETON DR                    NaN   
+4                  I           900 SETON DR                    NaN   
+5                  I           900 SETON DR                    NaN   
+6                  I           900 SETON DR                    NaN   
+7                  I           900 SETON DR                    NaN   
+8                  I           900 SETON DR                    NaN   
+9                  I           900 SETON DR                    NaN   
+10                 I           900 SETON DR                    NaN   
+
+   nppes_provider_city nppes_provider_zip nppes_provider_state  \
+1           CUMBERLAND              21502                   MD   
+2           CUMBERLAND              21502                   MD   
+3           CUMBERLAND              21502                   MD   
+4           CUMBERLAND              21502                   MD   
+5           CUMBERLAND              21502                   MD   
+6           CUMBERLAND              21502                   MD   
+7           CUMBERLAND              21502                   MD   
+8           CUMBERLAND              21502                   MD   
+9           CUMBERLAND              21502                   MD   
+10          CUMBERLAND              21502                   MD   
+
+   nppes_provider_country      provider_type medicare_participation_indicator  \
+1                      US  Internal Medicine                                Y   
+2                      US  Internal Medicine                                Y   
+3                      US  Internal Medicine                                Y   
+4                      US  Internal Medicine                                Y   
+5                      US  Internal Medicine                                Y   
+6                      US  Internal Medicine                                Y   
+7                      US  Internal Medicine                                Y   
+8                      US  Internal Medicine                                Y   
+9                      US  Internal Medicine                                Y   
+10                     US  Internal Medicine                                Y   
+
+   place_of_service hcpcs_code  \
+1                 F      99217   
+2                 F      99218   
+3                 F      99220   
+4                 F      99221   
+5                 F      99222   
+6                 F      99223   
+7                 F      99232   
+8                 F      99233   
+9                 F      99238   
+10                F      99239   
+
+                                    hcpcs_description hcpcs_drug_indicator  \
+1       Hospital observation care on day of discharge                    N   
+2     Hospital observation care, typically 30 minutes                    N   
+3     Hospital observation care, typically 70 minutes                    N   
+4   Initial hospital inpatient care, typically 30 ...                    N   
+5   Initial hospital inpatient care, typically 50 ...                    N   
+6   Initial hospital inpatient care, typically 70 ...                    N   
+7   Subsequent hospital inpatient care, typically ...                    N   
+8   Subsequent hospital inpatient care, typically ...                    N   
+9   Hospital discharge day management, 30 minutes ...                    N   
+10  Hospital discharge day management, more than 3...                    N   
+
+    line_srvc_cnt  bene_unique_cnt  bene_day_srvc_cnt  \
+1            68.0             67.0               68.0   
+2            19.0             19.0               19.0   
+3            26.0             26.0               26.0   
+4            24.0             24.0               24.0   
+5            17.0             17.0               17.0   
+6            86.0             82.0               86.0   
+7           360.0            206.0              360.0   
+8           284.0            148.0              284.0   
+9            16.0             16.0               16.0   
+10          250.0            217.0              250.0   
+
+    average_Medicare_allowed_amt  average_submitted_chrg_amt  \
+1                      73.821029                  381.308824   
+2                     100.883158                  476.947368   
+3                     188.110769                 1086.923077   
+4                     102.240000                  474.583333   
+5                     138.045882                  625.000000   
+6                     204.853953                 1093.500000   
+7                      73.565667                  360.572222   
+8                     105.349718                  576.989437   
+9                      73.846875                  415.312500   
+10                    108.902840                  555.640000   
+
+    average_Medicare_payment_amt  average_Medicare_standard_amt  
+1                      57.880294                      58.212500  
+2                      76.795263                      77.469474  
+3                     147.479231                     147.793462  
+4                      80.155000                      80.943333  
+5                     108.225294                     109.220000  
+6                     159.259070                     161.780930  
+7                      57.670306                      58.038833  
+8                      82.512993                      82.805775  
+9                      57.901250                      58.079375  
+10                     85.036640                      85.926640  
+Index(['npi', 'nppes_provider_last_org_name', 'nppes_provider_first_name',
+       'nppes_provider_mi', 'nppes_credentials', 'nppes_provider_gender',
+       'nppes_entity_code', 'nppes_provider_street1', 'nppes_provider_street2',
+       'nppes_provider_city', 'nppes_provider_zip', 'nppes_provider_state',
+       'nppes_provider_country', 'provider_type',
+       'medicare_participation_indicator', 'place_of_service', 'hcpcs_code',
+       'hcpcs_description', 'hcpcs_drug_indicator', 'line_srvc_cnt',
+       'bene_unique_cnt', 'bene_day_srvc_cnt', 'average_Medicare_allowed_amt',
+       'average_submitted_chrg_amt', 'average_Medicare_payment_amt',
+       'average_Medicare_standard_amt'],
+      dtype='object')
+                npi  line_srvc_cnt  bene_unique_cnt  bene_day_srvc_cnt  \
+count  9.961865e+06   9.961865e+06     9.961865e+06       9.961865e+06   
+mean   1.499542e+09   2.493754e+02     8.734895e+01       1.393506e+02   
+std    2.877155e+08   6.102059e+03     1.211845e+03       2.046794e+03   
+min    1.003000e+09   4.500000e+00     1.100000e+01       1.100000e+01   
+25%    1.245730e+09   2.000000e+01     1.700000e+01       2.000000e+01   
+50%    1.497959e+09   4.300000e+01     3.200000e+01       4.000000e+01   
+75%    1.740646e+09   1.170000e+02     7.500000e+01       1.060000e+02   
+max    1.993000e+09   1.076244e+07     8.898900e+05       1.731455e+06   
+
+       average_Medicare_allowed_amt  average_submitted_chrg_amt  \
+count                  9.961865e+06                9.961865e+06   
+mean                   1.031440e+02                3.644679e+02   
+std                    2.938051e+02                1.114721e+03   
+min                    1.666667e-04                1.666667e-04   
+25%                    2.279000e+01                6.000000e+01   
+50%                    6.606000e+01                1.500000e+02   
+75%                    1.140738e+02                3.060000e+02   
+max                    5.528929e+04                9.999999e+04   
+
+       average_Medicare_payment_amt  average_Medicare_standard_amt  
+count                  9.961865e+06                   9.961865e+06  
+mean                   7.885533e+01                   7.930758e+01  
+std                    2.284682e+02                   2.289130e+02  
+min                    0.000000e+00                   0.000000e+00  
+25%                    1.909387e+01                   1.980464e+01  
+50%                    4.823550e+01                   4.899765e+01  
+75%                    8.599000e+01                   8.560725e+01  
+max                    4.334680e+04                   4.334680e+04  
+83786699090.62228
+                 npi nppes_provider_last_org_name nppes_provider_first_name  \
+count   6.090970e+05                       609094                    500711   
+unique           NaN                        80897                     22322   
+top              NaN                  WALGREEN CO                   MICHAEL   
+freq             NaN                        24278                     11947   
+mean    1.499166e+09                          NaN                       NaN   
+std     2.872163e+08                          NaN                       NaN   
+min     1.003001e+09                          NaN                       NaN   
+25%     1.255321e+09                          NaN                       NaN   
+50%     1.497851e+09                          NaN                       NaN   
+75%     1.740545e+09                          NaN                       NaN   
+max     1.993000e+09                          NaN                       NaN   
+
+       nppes_provider_mi nppes_credentials nppes_provider_gender  \
+count             374104            488646                500719   
+unique                29              2666                     2   
+top                    A                MD                     M   
+freq               43318            175327                331408   
+mean                 NaN               NaN                   NaN   
+std                  NaN               NaN                   NaN   
+min                  NaN               NaN                   NaN   
+25%                  NaN               NaN                   NaN   
+50%                  NaN               NaN                   NaN   
+75%                  NaN               NaN                   NaN   
+max                  NaN               NaN                   NaN   
+
+       nppes_entity_code nppes_provider_street1 nppes_provider_street2  \
+count             609097                 608957                 198876   
+unique                 2                 127252                  13622   
+top                    I          200 1ST ST SW              SUITE 100   
+freq              500719                   1069                  10473   
+mean                 NaN                    NaN                    NaN   
+std                  NaN                    NaN                    NaN   
+min                  NaN                    NaN                    NaN   
+25%                  NaN                    NaN                    NaN   
+50%                  NaN                    NaN                    NaN   
+75%                  NaN                    NaN                    NaN   
+max                  NaN                    NaN                    NaN   
+
+       nppes_provider_city  nppes_provider_zip nppes_provider_state  \
+count               608957            608957.0               609097   
+unique                8688             21368.0                   60   
+top               NEW YORK             72205.0                   CA   
+freq                  4178              1095.0                49720   
+mean                   NaN                 NaN                  NaN   
+std                    NaN                 NaN                  NaN   
+min                    NaN                 NaN                  NaN   
+25%                    NaN                 NaN                  NaN   
+50%                    NaN                 NaN                  NaN   
+75%                    NaN                 NaN                  NaN   
+max                    NaN                 NaN                  NaN   
+
+       nppes_provider_country    provider_type  \
+count                  609097           609097   
+unique                      6               79   
+top                        US  Family Practice   
+freq                   608942           124351   
+mean                      NaN              NaN   
+std                       NaN              NaN   
+min                       NaN              NaN   
+25%                       NaN              NaN   
+50%                       NaN              NaN   
+75%                       NaN              NaN   
+max                       NaN              NaN   
+
+       medicare_participation_indicator place_of_service hcpcs_code  \
+count                            609097           609097     609097   
+unique                                2                2        358   
+top                                   Y                O      90662   
+freq                             609096           608550      89219   
+mean                                NaN              NaN        NaN   
+std                                 NaN              NaN        NaN   
+min                                 NaN              NaN        NaN   
+25%                                 NaN              NaN        NaN   
+50%                                 NaN              NaN        NaN   
+75%                                 NaN              NaN        NaN   
+max                                 NaN              NaN        NaN   
+
+                                      hcpcs_description hcpcs_drug_indicator  \
+count                                            609097               609097   
+unique                                              351                    1   
+top     Vaccine for influenza for injection into muscle                    Y   
+freq                                             127577               609097   
+mean                                                NaN                  NaN   
+std                                                 NaN                  NaN   
+min                                                 NaN                  NaN   
+25%                                                 NaN                  NaN   
+50%                                                 NaN                  NaN   
+75%                                                 NaN                  NaN   
+max                                                 NaN                  NaN   
+
+        line_srvc_cnt  bene_unique_cnt  bene_day_srvc_cnt  \
+count    6.090970e+05    609097.000000      609097.000000   
+unique            NaN              NaN                NaN   
+top               NaN              NaN                NaN   
+freq              NaN              NaN                NaN   
+mean     1.307511e+03        51.431506          72.879778   
+std      1.840007e+04       430.555434         444.144718   
+min      6.500000e+00        11.000000          11.000000   
+25%      2.200000e+01        16.000000          19.000000   
+50%      5.600000e+01        26.000000          34.000000   
+75%      1.910000e+02        54.000000          76.000000   
+max      1.076244e+07    228805.000000      229539.000000   
+
+        average_Medicare_allowed_amt  average_submitted_chrg_amt  \
+count                  609097.000000               609097.000000   
+unique                           NaN                         NaN   
+top                              NaN                         NaN   
+freq                             NaN                         NaN   
+mean                       59.694057                   99.367260   
+std                       108.926337                  222.164395   
+min                         0.000167                    0.000167   
+25%                         1.970574                   13.500000   
+50%                        19.030000                   41.000000   
+75%                        54.670000                  102.068966   
+max                      4180.000000                 5922.500000   
+
+        average_Medicare_payment_amt  average_Medicare_standard_amt  
+count                  609097.000000                  609097.000000  
+unique                           NaN                            NaN  
+top                              NaN                            NaN  
+freq                             NaN                            NaN  
+mean                       54.284463                      54.551121  
+std                        90.745265                      91.298734  
+min                         0.000117                       0.000117  
+25%                         1.421259                       1.429042  
+50%                        18.650000                      18.650000  
+75%                        52.462051                      52.733755  
+max                      3277.120000                    3277.120000  
+                 npi nppes_provider_last_org_name nppes_provider_first_name  \
+count   2.096000e+03                         2096                      2095   
+unique           NaN                         1770                      1141   
+top              NaN                        PATEL                   MICHAEL   
+freq             NaN                           20                        47   
+mean    1.503565e+09                          NaN                       NaN   
+std     2.852914e+08                          NaN                       NaN   
+min     1.003031e+09                          NaN                       NaN   
+25%     1.265429e+09                          NaN                       NaN   
+50%     1.508843e+09                          NaN                       NaN   
+75%     1.750355e+09                          NaN                       NaN   
+max     1.992973e+09                          NaN                       NaN   
+
+       nppes_provider_mi nppes_credentials nppes_provider_gender  \
+count               1473              2072                  2095   
+unique                25                52                     2   
+top                    A              M.D.                     M   
+freq                 184               941                  1517   
+mean                 NaN               NaN                   NaN   
+std                  NaN               NaN                   NaN   
+min                  NaN               NaN                   NaN   
+25%                  NaN               NaN                   NaN   
+50%                  NaN               NaN                   NaN   
+75%                  NaN               NaN                   NaN   
+max                  NaN               NaN                   NaN   
+
+       nppes_entity_code nppes_provider_street1 nppes_provider_street2  \
+count               2096                   2095                    958   
+unique                 2                   1092                    347   
+top                    I    4500 SAN PABLO RD S              SUITE 200   
+freq                2095                     21                     59   
+mean                 NaN                    NaN                    NaN   
+std                  NaN                    NaN                    NaN   
+min                  NaN                    NaN                    NaN   
+25%                  NaN                    NaN                    NaN   
+50%                  NaN                    NaN                    NaN   
+75%                  NaN                    NaN                    NaN   
+max                  NaN                    NaN                    NaN   
+
+       nppes_provider_city  nppes_provider_zip nppes_provider_state  \
+count                 2095              2095.0                 2096   
+unique                 604               883.0                   49   
+top                CHICAGO             60611.0                   FL   
+freq                    33                26.0                  248   
+mean                   NaN                 NaN                  NaN   
+std                    NaN                 NaN                  NaN   
+min                    NaN                 NaN                  NaN   
+25%                    NaN                 NaN                  NaN   
+50%                    NaN                 NaN                  NaN   
+75%                    NaN                 NaN                  NaN   
+max                    NaN                 NaN                  NaN   
+
+       nppes_provider_country        provider_type  \
+count                    2096                 2096   
+unique                      2                   18   
+top                        US  Hematology-Oncology   
+freq                     2095                 1436   
+mean                      NaN                  NaN   
+std                       NaN                  NaN   
+min                       NaN                  NaN   
+25%                       NaN                  NaN   
+50%                       NaN                  NaN   
+75%                       NaN                  NaN   
+max                       NaN                  NaN   
+
+       medicare_participation_indicator place_of_service hcpcs_code  \
+count                              2096             2096       2096   
+unique                                1                1          9   
+top                                   Y                O      J2505   
+freq                               2096             2096       2087   
+mean                                NaN              NaN        NaN   
+std                                 NaN              NaN        NaN   
+min                                 NaN              NaN        NaN   
+25%                                 NaN              NaN        NaN   
+50%                                 NaN              NaN        NaN   
+75%                                 NaN              NaN        NaN   
+max                                 NaN              NaN        NaN   
+
+                     hcpcs_description hcpcs_drug_indicator  line_srvc_cnt  \
+count                             2096                 2096    2096.000000   
+unique                               9                    1            NaN   
+top     Injection, pegfilgrastim, 6 mg                    Y            NaN   
+freq                              2087                 2096            NaN   
+mean                               NaN                  NaN      54.653149   
+std                                NaN                  NaN      40.024472   
+min                                NaN                  NaN      11.000000   
+25%                                NaN                  NaN      29.000000   
+50%                                NaN                  NaN      44.000000   
+75%                                NaN                  NaN      67.000000   
+max                                NaN                  NaN     736.000000   
+
+        bene_unique_cnt  bene_day_srvc_cnt  average_Medicare_allowed_amt  \
+count       2096.000000        2096.000000                   2096.000000   
+unique              NaN                NaN                           NaN   
+top                 NaN                NaN                           NaN   
+freq                NaN                NaN                           NaN   
+mean          22.346374          54.201813                   4571.428042   
+std           11.597064          36.759384                    338.223351   
+min           11.000000          11.000000                     53.370000   
+25%           14.000000          29.000000                   4561.370014   
+50%           19.000000          44.000000                   4583.955294   
+75%           27.000000          67.000000                   4605.119657   
+max          107.000000         329.000000                  16174.731149   
+
+        average_submitted_chrg_amt  average_Medicare_payment_amt  \
+count                  2096.000000                   2096.000000   
+unique                         NaN                           NaN   
+top                            NaN                           NaN   
+freq                           NaN                           NaN   
+mean                  10459.230567                   3557.506321   
+std                    4261.332877                    274.871626   
+min                    4390.200000                     52.300000   
+25%                    6900.000000                   3555.205049   
+50%                    9136.889271                   3584.263993   
+75%                   14070.000000                   3605.251054   
+max                   39780.154130                  12677.691494   
+
+        average_Medicare_standard_amt  
+count                     2096.000000  
+unique                            NaN  
+top                               NaN  
+freq                              NaN  
+mean                      3584.209907  
+std                        267.261946  
+min                         52.300000  
+25%                       3575.048816  
+50%                       3595.403583  
+75%                       3613.951123  
+max                      12677.691494  
+                 npi nppes_provider_last_org_name nppes_provider_first_name  \
+count   2.096000e+03                         2096                      2095   
+unique           NaN                         1770                      1141   
+top              NaN                        PATEL                   MICHAEL   
+freq             NaN                           20                        47   
+mean    1.503565e+09                          NaN                       NaN   
+std     2.852914e+08                          NaN                       NaN   
+min     1.003031e+09                          NaN                       NaN   
+25%     1.265429e+09                          NaN                       NaN   
+50%     1.508843e+09                          NaN                       NaN   
+75%     1.750355e+09                          NaN                       NaN   
+max     1.992973e+09                          NaN                       NaN   
+
+       nppes_provider_mi nppes_credentials nppes_provider_gender  \
+count               1473              2072                  2095   
+unique                25                52                     2   
+top                    A              M.D.                     M   
+freq                 184               941                  1517   
+mean                 NaN               NaN                   NaN   
+std                  NaN               NaN                   NaN   
+min                  NaN               NaN                   NaN   
+25%                  NaN               NaN                   NaN   
+50%                  NaN               NaN                   NaN   
+75%                  NaN               NaN                   NaN   
+max                  NaN               NaN                   NaN   
+
+       nppes_entity_code nppes_provider_street1 nppes_provider_street2  \
+count               2096                   2095                    958   
+unique                 2                   1092                    347   
+top                    I    4500 SAN PABLO RD S              SUITE 200   
+freq                2095                     21                     59   
+mean                 NaN                    NaN                    NaN   
+std                  NaN                    NaN                    NaN   
+min                  NaN                    NaN                    NaN   
+25%                  NaN                    NaN                    NaN   
+50%                  NaN                    NaN                    NaN   
+75%                  NaN                    NaN                    NaN   
+max                  NaN                    NaN                    NaN   
+
+       nppes_provider_city  nppes_provider_zip nppes_provider_state  \
+count                 2095              2095.0                 2096   
+unique                 604               883.0                   49   
+top                CHICAGO             60611.0                   FL   
+freq                    33                26.0                  248   
+mean                   NaN                 NaN                  NaN   
+std                    NaN                 NaN                  NaN   
+min                    NaN                 NaN                  NaN   
+25%                    NaN                 NaN                  NaN   
+50%                    NaN                 NaN                  NaN   
+75%                    NaN                 NaN                  NaN   
+max                    NaN                 NaN                  NaN   
+
+       nppes_provider_country        provider_type  \
+count                    2096                 2096   
+unique                      2                   18   
+top                        US  Hematology-Oncology   
+freq                     2095                 1436   
+mean                      NaN                  NaN   
+std                       NaN                  NaN   
+min                       NaN                  NaN   
+25%                       NaN                  NaN   
+50%                       NaN                  NaN   
+75%                       NaN                  NaN   
+max                       NaN                  NaN   
+
+       medicare_participation_indicator place_of_service hcpcs_code  \
+count                              2096             2096       2096   
+unique                                1                1          9   
+top                                   Y                O      J2505   
+freq                               2096             2096       2087   
+mean                                NaN              NaN        NaN   
+std                                 NaN              NaN        NaN   
+min                                 NaN              NaN        NaN   
+25%                                 NaN              NaN        NaN   
+50%                                 NaN              NaN        NaN   
+75%                                 NaN              NaN        NaN   
+max                                 NaN              NaN        NaN   
+
+                     hcpcs_description hcpcs_drug_indicator  line_srvc_cnt  \
+count                             2096                 2096    2096.000000   
+unique                               9                    1            NaN   
+top     Injection, pegfilgrastim, 6 mg                    Y            NaN   
+freq                              2087                 2096            NaN   
+mean                               NaN                  NaN      54.653149   
+std                                NaN                  NaN      40.024472   
+min                                NaN                  NaN      11.000000   
+25%                                NaN                  NaN      29.000000   
+50%                                NaN                  NaN      44.000000   
+75%                                NaN                  NaN      67.000000   
+max                                NaN                  NaN     736.000000   
+
+        bene_unique_cnt  bene_day_srvc_cnt  average_Medicare_allowed_amt  \
+count       2096.000000        2096.000000                   2096.000000   
+unique              NaN                NaN                           NaN   
+top                 NaN                NaN                           NaN   
+freq                NaN                NaN                           NaN   
+mean          22.346374          54.201813                   4571.428042   
+std           11.597064          36.759384                    338.223351   
+min           11.000000          11.000000                     53.370000   
+25%           14.000000          29.000000                   4561.370014   
+50%           19.000000          44.000000                   4583.955294   
+75%           27.000000          67.000000                   4605.119657   
+max          107.000000         329.000000                  16174.731149   
+
+        average_submitted_chrg_amt  average_Medicare_payment_amt  \
+count                  2096.000000                   2096.000000   
+unique                         NaN                           NaN   
+top                            NaN                           NaN   
+freq                           NaN                           NaN   
+mean                  10459.230567                   3557.506321   
+std                    4261.332877                    274.871626   
+min                    4390.200000                     52.300000   
+25%                    6900.000000                   3555.205049   
+50%                    9136.889271                   3584.263993   
+75%                   14070.000000                   3605.251054   
+max                   39780.154130                  12677.691494   
+
+        average_Medicare_standard_amt  
+count                     2096.000000  
+unique                            NaN  
+top                               NaN  
+freq                              NaN  
+mean                      3584.209907  
+std                        267.261946  
+min                         52.300000  
+25%                       3575.048816  
+50%                       3595.403583  
+75%                       3613.951123  
+max                      12677.691494  
